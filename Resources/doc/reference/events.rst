@@ -6,7 +6,7 @@ Events
 ======
 
 Sometime, you might want to create an area where a block can be added, depending on some external settings. A good example is
-a `Comment mechanism`. You might want to create a ``CommentBundle`` to render a `comment thread` on different pages. The comment area can used `Disqus <http://disqus.com>`_ or your own solution.
+a `Comment mechanism`. You might want to create a ``CommentBundle`` to render a `comment thread` on different pages. The comment area can use `Disqus <http://disqus.com>`_ or your own solution.
 As part of a full stack solution, you don't know which solution is going to be used. However, you know where the comment area will be located.
 
 The `Event mechanism` implemented in the ``SonataBlockBundle`` tries to address this situation, and to provide a clean syntax:
